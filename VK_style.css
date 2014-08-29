@@ -1,0 +1,76 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+@-moz-document domain("vk.com") {
+body {
+  background-color: #444 !important;
+}
+* {
+  
+  background-color:transparent !important;
+  color: #eee !important;
+  font-family: sans-serif;
+}
+#page_header * {
+  background: none !important;
+  background-color: transparent !important;
+}
+#page_header{
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: black !important;
+  box-shadow: 0 0 10px 5px #222;
+  color: #eee !important;
+}
+#top_links a.top_nav_link, #top_links a.top_nav_link.over span#head_music_text,  #top_links a.top_nav_link span#head_music_text {
+  color: #ccc !important;
+}
+#top_links a {
+  color: #ddd !important;
+}
+#ac {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: black !important;
+  box-shadow: 0 0 10px 5px #222;
+  color: #eee !important;
+  height: 50px !important;
+  width: 791px !important;
+  margin-left: -147px;
+  margin-top: -10px;
+  padding-top: 10px
+}
+.top_home_link_td, .top_home_link, #top_logo_down {
+  width: 0;
+}
+#side_bar {
+  top:90px!important;
+}
+#ac_play {
+    background: url("http://cs609929.vk.me/u141655650/docs/3fd0b003b37f/audio_icons.png?5") no-repeat scroll 0 -25px rgba(0, 0, 0, 0);
+}
+.audio .play_new {
+    background: url("http://cs609429.vk.me/u141655650/docs/fbcd710b03a0/playpause.png?") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+.audio_search .search_reset {
+    background: url("http://cs609317.vk.me/u141655650/docs/a2d16b53e320/input_clear.png?") no-repeat scroll 6px 6px rgba(0, 0, 0, 0);
+}
+.audio_search .s_search {
+    background: url("http://cs609319.vk.me/u141655650/docs/a42efdf41a40/magglass.png?") no-repeat scroll 5px 6px rgb(255, 255, 255);
+}
+.checkbox_container table td .checkbox_on, .checkbox_container table td .checkbox_off, .checkbox_container table td .checkbox_on_over, .checkbox_container table td .checkbox_off_over {
+  background: url("http://cs609723.vk.me/u141655650/docs/42ab039aa481/check.png?1") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+  overflow: hidden;
+  width: 15px;
+}
+.checkbox_container table td .checkbox_on {
+    background-position: 0 -14px;
+}
+.checkbox_container table td .checkbox_off_over {
+    background-position: 0 -28px;
+}
+.checkbox_container table td .checkbox_on_over {
+    background-position: 0 -42px;
+}
+
+
+
+}
