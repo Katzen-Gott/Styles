@@ -2,9 +2,10 @@
 @-moz-document domain("vk.com") {
 body {
   background-color: #444 !important;
+  color: #ccc !important;
 }
 * {
-  
+  border:none;
   background-color:transparent !important;
   color: #eee !important;
   font-family: sans-serif;
@@ -16,9 +17,10 @@ body {
 #page_header{
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
-  background-color: black !important;
-  box-shadow: 0 0 10px 5px #222;
+  background-color: #333 !important;
+  box-shadow: 0 0 10px 5px #333;
   color: #eee !important;
+  border: 1px #222 solid;
 }
 #top_links a.top_nav_link, #top_links a.top_nav_link.over span#head_music_text,  #top_links a.top_nav_link span#head_music_text {
   color: #ccc !important;
@@ -29,14 +31,15 @@ body {
 #ac {
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
-  background-color: black !important;
-  box-shadow: 0 0 10px 5px #222;
+  background-color: #333 !important;
+  box-shadow: 0 0 10px 5px #333;
   color: #eee !important;
   height: 50px !important;
   width: 791px !important;
   margin-left: -147px;
   margin-top: -10px;
-  padding-top: 10px
+  padding-top: 10px;
+  border: 1px #222 solid;
 }
 .top_home_link_td, .top_home_link, #top_logo_down {
   width: 0;
@@ -85,7 +88,7 @@ body {
 .ac_progress_line {
     background-color: #777 !important;
 }
-.tt .tt_text, .tt, .ttb, #audio_tip_wrap{
+.tt .tt_text, .tt, .ttb, #audio_tip_wrap {
   background-color: #333 !important;
   border-radius: 10px;
   border: 1px #222 solid;
@@ -93,5 +96,25 @@ body {
 }
 .tt .tt_text * {
   color: #ccc !important;
+}
+.dd_menu_rows, .selector_table {
+  
+  background-color: #555 !important;
+  border: 1px #333 solid !important;
+}
+.result_list ul * {
+  border:none !important;
+  padding-top: 10px !important;
+  background-color: #555 !important;
+  border: 1px #333 solid !important;
+  padding-bottom: 3px !important;
+}
+.dd_menu_header {
+  visibility: hidden !important;
+}
+#s_search {
+  border: 1px #222 solid;
+  font-weight: bold;
+  color: #ccc;
 }
 }
