@@ -56,7 +56,7 @@ body {
 .audio_search .s_search {
     background: url("http://cs609319.vk.me/u141655650/docs/a42efdf41a40/magglass.png?") no-repeat scroll 5px 6px rgb(255, 255, 255);
 }
-.checkbox_container table td .checkbox_on, .checkbox_container table td .checkbox_off, .checkbox_container table td .checkbox_on_over, .checkbox_container table td .checkbox_off_over {
+.checkbox div, .checkbox_container table td .checkbox_on, .checkbox_container table td .checkbox_off, .checkbox_container table td .checkbox_on_over, .checkbox_container table td .checkbox_off_over {
   background: url("http://cs609723.vk.me/u141655650/docs/42ab039aa481/check.png?1") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
   overflow: hidden;
   width: 15px;
@@ -70,7 +70,28 @@ body {
 .checkbox_container table td .checkbox_on_over {
     background-position: 0 -42px;
 }
-
-
-
+#ac.add .info {
+    width: 580px;
+}
+#ac.add .ac_name {
+    max-width: 480px;
+}
+.ac_back_line {
+    background-color: #333 !important;
+}
+.ac_load_line {
+    background-color: #555 !important;
+}
+.ac_progress_line {
+    background-color: #777 !important;
+}
+.tt .tt_text, .tt, .ttb, #audio_tip_wrap{
+  background-color: #333 !important;
+  border-radius: 10px;
+  border: 1px #222 solid;
+  box-shadow: 0 0 10px 5px #333;
+}
+.tt .tt_text * {
+  color: #ccc !important;
+}
 }
