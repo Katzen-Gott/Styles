@@ -1,7 +1,7 @@
 @namespace url(http://www.w3.org/1999/xhtml);
 @-moz-document domain("vk.com") {
 body {
-  background-color: #444 !important;
+  background: url("http://img3.wikia.nocookie.net/__cb20130930063640/steamtradingcards/images/f/f4/Magicka_Background_Dungeons.jpg") fixed;
   color: #ccc !important;
 }
 * {
