@@ -1,7 +1,6 @@
-VK_style
+Styles
 ========
 
-Style for VK.com
-I make it to use with Stylish firefox-plugin.
-Main idea is to have dark background with light text with possibility of adding background picture.
-Feel free to use and improve the style.
+Styles for different sites
+I make them to use with Stylish firefox-plugin.
+Feel free to use and improve any style.
