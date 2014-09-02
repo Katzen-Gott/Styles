@@ -2,6 +2,7 @@
 @-moz-document domain("vk.com") {
 body {
   background: url("http://img3.wikia.nocookie.net/__cb20130930063640/steamtradingcards/images/f/f4/Magicka_Background_Dungeons.jpg") fixed;
+  background-size: 100%;
   color: #ccc !important;
 }
 * {
@@ -117,7 +118,7 @@ body {
   font-weight: bold;
   color: #ccc;
 }
-#mv_box, .box_layout, #currinfo_editor, #pv_box {
+#mv_box, .box_layout, #currinfo_editor, #pv_box, #wk_box {
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
   background-color: #222 !important;
