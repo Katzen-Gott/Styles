@@ -42,6 +42,41 @@ body {
   padding-top: 10px !important;
   border: 1px #222 solid !important;
 }
+#im_nav_wrap {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: #333 !important;
+  box-shadow: 0 0 10px 5px #333;
+  color: #eee !important;
+  height: 50px !important;
+  width: 789px !important;
+  margin-left: -145px !important;
+  margin-top: -10px !important;
+  padding-top: 10px !important;
+  border: 1px #222 solid !important;
+}
+.tabs.im_tabs.t_bar.clear_fix * {
+  padding: 0;
+  margin-top:0;
+  margin-bottom:0;
+}
+.tabs.im_tabs.t_bar.clear_fix {
+  padding-top: 7px !important;
+  padding-right:  10px !important;
+}
+.im_tab, .im_tab_selected {
+  padding-top:3px !important;
+}
+.im_tab, .im_tab_selected, .im_tab *, .im_tab_selected * {
+  padding-top:0;
+  padding-bottom:0;
+}
+.tabs.im_tabs.t_bar.clear_fix #im_top_tabs {
+  width: 100%
+}
+#im_bar {
+  padding:0
+}
 .top_home_link_td, .top_home_link, #top_logo_down {
   width: 0;
 }
@@ -89,11 +124,11 @@ body {
 .ac_progress_line {
     background-color: #777 !important;
 }
-.tt .tt_text, .tt, .ttb, #audio_tip_wrap {
-  background-color: #333 !important;
+.tt .tt_text, .tt, .ttb, #audio_tip_wrap, #im_controls_wrap, .add_media_items {
+  background-color: #222 !important;
   border-radius: 10px;
-  border: 1px #222 solid !important;
-  box-shadow: 0 0 10px 5px #333;
+  border: 1px #111 solid !important;
+  box-shadow: 0 0 10px 5px #111;
 }
 .tt .tt_text * {
   color: #ccc !important;
@@ -135,4 +170,8 @@ body {
 .radiobtn div {
   background: url("https://dl.dropboxusercontent.com/u/69645064/radio.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
 }
+.page_media_poll .page_poll_percent {
+  background-color: #333 !important
+}
+
 }
